@@ -43,7 +43,10 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'es',
+      name: "«Comillas»",
+      short_name: "«Comillas»",
+      description: "Una herramienta para hacer las traducciones de WordPress al Español de España más sencillas.",
     }
   },
 
