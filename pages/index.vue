@@ -51,6 +51,10 @@ const spanishify = (content) => {
       // We alternate between open and close
       newContent += open?"«":"»";
       open = !open;
+    }else if(content[i] === '“'){
+      newContent += "«";
+    }else if(content[i] === '”'){
+      newContent += "»";
     }else{
       // If it isn't, just copy it
       newContent += content[i];
